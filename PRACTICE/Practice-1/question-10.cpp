@@ -20,7 +20,7 @@ int main()
 
   while (miles != -1)
   {
-    cout << setprecision(8); // its for showing digits
+    cout << setprecision(8); // it makes the number of 8 digits
     cout << "MPG this trip: " << static_cast<double>(miles) / gallons << "\n"; // calculating mile per gallon for this tirp
 
     totalGallons += gallons; // add the gallons used in this trip to the total gallons used in all trips
