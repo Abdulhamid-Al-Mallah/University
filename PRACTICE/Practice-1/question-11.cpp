@@ -15,8 +15,7 @@ int main()
   cout << "Enter account number (or -1 to quit): ";
   cin >> accountNumber;
 
-  if (accountNumber == -1)
-    return 0;
+  if (accountNumber == -1) return 0;
 
   cout << "Enter beginning balance: ";
   cin >> beginningBalance;
@@ -51,8 +50,7 @@ int main()
     cout << "Enter account number (or -1 to quit): ";
     cin >> accountNumber;
 
-    if (accountNumber == -1)
-      return 0;
+    if (accountNumber == -1) return 0;
 
     cout << "Enter beginning balance: ";
     cin >> beginningBalance;
