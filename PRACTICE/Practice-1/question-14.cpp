@@ -1,3 +1,4 @@
+// ========================= Averaging Integer
 #include <iostream>
 #include <iomanip>
 
